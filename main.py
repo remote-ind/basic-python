@@ -14,3 +14,11 @@ if fast_learn:
 else:
     print('Just go to your bed and sleep or playing your phone!!!')
 
+# PERULANGAN : REPETITION
+my_car = 5
+
+for index in range(1, my_car+1):
+    print(f'This is my car number {index}')
+
+
+
