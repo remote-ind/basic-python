@@ -44,3 +44,15 @@ for i in range (0, len(menu)):
 
 print('\nThis is Vegetarian Food :')
 print(vegetarian) # Here you can see the data which get pop out from the list
+
+print('\nSelect Your Menu For Two Days :')
+menu.pop()
+for i in range (0, len(menu)):
+    print(menu[i])
+
+# POP YOUR DATA WITH MINUS ARGUMENT
+print('\nThis is shoes brand with highet sales :')
+shoes = ['Nike', 'Adidas', 'Puma', 'New Balance', 'Asics']
+shoes.pop(-3) # This is pop with argument -3, and we choose to delete and move Puma from list
+for i in range (0, len(shoes)):
+    print(shoes[i])
